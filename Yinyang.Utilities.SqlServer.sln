@@ -1,0 +1,44 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.SqlServer", "Yinyang.Utilities.SqlServer\Yinyang.Utilities.SqlServer.csproj", "{A69A3488-B2B7-44ED-B2CE-1FC434FE3C0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.SqlServer.Samples", "Yinyang.Utilities.SqlServer.Samples\Yinyang.Utilities.SqlServer.Samples.csproj", "{35D42499-CC9F-4EA6-805E-03649F7F18A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC9E47AB-EEE9-4236-8988-A5931286B79A}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+		release-notes.md = release-notes.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yinyang.Utilities.SqlServer.Test", "Yinyang.Utilities.SqlServer.Test\Yinyang.Utilities.SqlServer.Test.csproj", "{37000E56-564F-4E46-9927-37AA9476B517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A69A3488-B2B7-44ED-B2CE-1FC434FE3C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69A3488-B2B7-44ED-B2CE-1FC434FE3C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69A3488-B2B7-44ED-B2CE-1FC434FE3C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69A3488-B2B7-44ED-B2CE-1FC434FE3C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D42499-CC9F-4EA6-805E-03649F7F18A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D42499-CC9F-4EA6-805E-03649F7F18A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D42499-CC9F-4EA6-805E-03649F7F18A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D42499-CC9F-4EA6-805E-03649F7F18A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37000E56-564F-4E46-9927-37AA9476B517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37000E56-564F-4E46-9927-37AA9476B517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37000E56-564F-4E46-9927-37AA9476B517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37000E56-564F-4E46-9927-37AA9476B517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AC4509B-15A7-4071-8546-A2B5E72BEB26}
+	EndGlobalSection
+EndGlobal
